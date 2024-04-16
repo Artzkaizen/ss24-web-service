@@ -4,3 +4,5 @@
 
 # nodejs files
 node_modules
+src/public/avatars.html
+kat.html

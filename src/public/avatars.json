@@ -1,0 +1,68 @@
+[
+  {
+    "id": 6104,
+    "characterName": "Robbin",
+    "childAge": 4,
+    "skinColor": "#218c3c",
+    "hairStyle": "Short",
+    "headShape": "Square",
+    "upperClothing": "native-wear",
+    "lowerClothing": "Cargo",
+    "createdAt": "2024-04-16T03:26:31.325Z"
+  },
+  {
+    "id": 8400,
+    "characterName": "Mark",
+    "childAge": 7,
+    "skinColor": "#000000",
+    "hairStyle": "Afro",
+    "headShape": "Oval",
+    "upperClothing": "White-shirt",
+    "lowerClothing": "trousers",
+    "createdAt": "2024-04-15T13:54:35.229Z"
+  },
+  {
+    "id": 8482,
+    "characterName": "Jace",
+    "childAge": 3,
+    "skinColor": "#000000",
+    "hairStyle": "Fade",
+    "headShape": "Oval",
+    "upperClothing": "White-shirt",
+    "lowerClothing": "trousers",
+    "createdAt": "2024-04-15T13:54:57.681Z"
+  },
+  {
+    "id": 7587,
+    "characterName": "greere",
+    "childAge": 6,
+    "skinColor": "#000000",
+    "hairStyle": "Buzz cut",
+    "headShape": "Round",
+    "upperClothing": "Green-shirt",
+    "lowerClothing": "Shorts",
+    "createdAt": "2024-04-15T13:55:13.913Z"
+  },
+  {
+    "id": 9052,
+    "characterName": "Chris",
+    "childAge": 0,
+    "skinColor": "#000000",
+    "hairStyle": "Afro",
+    "headShape": "Oval",
+    "upperClothing": "White-shirt",
+    "lowerClothing": "trousers",
+    "createdAt": "2024-04-15T14:02:28.908Z"
+  },
+  {
+    "id": 7360,
+    "characterName": "Luisa",
+    "childAge": 5,
+    "skinColor": "#e0920b",
+    "hairStyle": "Long",
+    "headShape": "Round",
+    "upperClothing": "White-shirt",
+    "lowerClothing": "Jeans",
+    "createdAt": "2024-04-15T19:05:14.117Z"
+  }
+]

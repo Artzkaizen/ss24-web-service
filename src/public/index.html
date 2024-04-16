@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Create Avatar</title>
+</head>
+<body>
+    <div class="create-avatar">
+        <h1>Avatar Creation Tool</h1>
+        <form method="post" action="/create-avatar">
+            <label for="name">Name</label>
+            <input type="text" name="name" >
+    
+            <label for="age">Age</label>
+            <input type="number" name="age" min="0" max="9">
+    
+            <label for="skinColor">Skin Color</label>
+            <input name="skinColor" type="color">
+    
+            <label for="headShape">Head Shape</label>
+            <select name="headShape" >
+                <option value="Oval">Oval</option>
+                <option value="Square">Square</option>
+                <option value="Round">Round</option>
+                <option value="Circle">Circle</option>
+            </select>
+            <label for="hairStyle">Hair Style</label>
+            <select name="hairStyle" >
+                <option value="Afro">Afro</option>
+                <option value="Bald">Bald</option>
+                <option value="Buzz Cut">Buzz Cut</option>
+                <option value="Fade">Fade</option>
+                <option value="Long">Long</option>
+                <option value="Short">Short</option>
+            </select>
+            <label for="upperClothing">Upper clothing</label>
+            <select name="upperClothing" >
+                <option value="White-shirt">White Shirt</option>
+                <option value="Polo">Polo</option>
+                <option value="Black-shirt">Black shirt</option>
+                <option value="native-wear">Native-wear</option>
+                <option value="Green-Shirt">Green Shirt</option>
+            </select>
+            <label for="lowerClothing">Lower clothing</label>
+            <select name="lowerClothing" >
+                <option value="trousers">Trousers</option>
+                <option value="Shorts">Shorts</option>
+                <option value="Jeans">Jeans</option>
+                <option value="Cargo">Cargo</option>
+            </select>
+            <button type="submit">Create</button>
+        </form>
+    </div>
+</body>
+</html>
