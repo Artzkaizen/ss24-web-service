@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 require('dotenv/config');
 const express = require('express');
 const path = require('path');
@@ -96,4 +97,13 @@ app.get('/avatars/:id', async (req, res) => {
 });
 
 app.listen(port, () => console.log(`Server listening on port ${port}!`));
+=======
+import app from './app.js'
+
+export const port = 3001
+
+app.listen(port, ()=>{
+    console.log(`Works! Here is the link: http://localhost:${port}`)
+})
+>>>>>>> 6d80484afa65a18a462163d63439cc160e21c3a7
 
