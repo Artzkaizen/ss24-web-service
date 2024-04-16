@@ -1,6 +1,6 @@
-import {jest, test, expect, beforeEach, describe} from "@jest/globals"; // this is optional, all three are global variables im runner scope
-import app from './app.js';
-import request from 'supertest';
+const {jest, test, expect, beforeEach, describe} = require("@jest/globals"); // this is optional, all three are global variables im runner scope
+const app = require('./app.js');
+const request = require('supertest');
 
 describe('avatar api', () => {
 
@@ -10,7 +10,7 @@ describe('avatar api', () => {
         "skinColor": "#0000ff",
         "hairstyle": "short",
         "headShape": "oval",
-        "upperClothing": "jacket",
+        "uppfilePath);thing": "jacket",
         "lowerClothing": "shorts"
     }
 

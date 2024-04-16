@@ -1,11 +1,8 @@
-import express from "express"
-import path from 'path';
-import { fileURLToPath } from 'url';
-import * as fs from "fs";
+const express = require('express');
+const path = require('path');
+const cors = require('cors');
 
-// const __filename = fileURLToPath(import.meta.url);
-// const __dirname = path.dirname(__filename);
-const __dirname = '.';
+const Avatar = require('../Avatar');
 
 const app = express()
 
@@ -13,7 +10,7 @@ const app = express()
 app.use(express.static(path.join(__dirname, 'public')))
 app.use(express.json())
 app.get('/', function (req, res) {
-    res.sendFile(`index.html`)
+    res.sendFile(path.join(__dirname, 'public'));
 })
 
 app.post('/api/avatars', (req, res)=>{
