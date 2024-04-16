@@ -16,5 +16,8 @@ function product(n, term = k => k, initial=1){
     }
     return result;
 }
+function product1(m, n){
+    return m * n;
+}
 
-export {factorial, product}
+export {factorial, product, product1}

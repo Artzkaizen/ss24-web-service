@@ -1,16 +1,5 @@
 [
   {
-    "id": 6104,
-    "characterName": "Robbin",
-    "childAge": 4,
-    "skinColor": "#218c3c",
-    "hairStyle": "Short",
-    "headShape": "Square",
-    "upperClothing": "native-wear",
-    "lowerClothing": "Cargo",
-    "createdAt": "2024-04-16T03:26:31.325Z"
-  },
-  {
     "id": 8400,
     "characterName": "Mark",
     "childAge": 7,

@@ -1,4 +1,4 @@
-import {factorial} from './calculate';
+import {factorial, product1} from './calculate';
 import {test, describe, expect} from "@jest/globals"; // this is optional, all three are global variables im runner scope
 
 describe('factorial', () => {
@@ -21,8 +21,23 @@ describe('factorial', () => {
 
 describe('product', ()=>{
 
-    // product(5) --> 120
-    // product(1) --> 1
+    test('3 * 5 is 15', () => {
+        expect(product1(3, 5)).toBe(15)
+    });
+
+    test('6 * 5 is 30', () => {
+        expect(product1(6, 5)).toBe(30)
+    });
+
+    test('3 * 0 is 0', () => {
+        expect(product1(3, 0)).toBe(0)
+    });
+
+    // test('product of negative int is throwing exception ', () => {
+    //     expect(() => {
+    //         product(-5);
+    //     }).toThrow();
+    // });
 
 });
 

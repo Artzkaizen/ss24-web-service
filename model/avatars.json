@@ -1,0 +1,35 @@
+[
+  {
+    "id": 6044,
+    "characterName": "Jonah",
+    "childAge": 7,
+    "skinColor": "#000000",
+    "hairStyle": "Fade",
+    "headShape": "Oval",
+    "upperClothing": "T-Shirt",
+    "lowerClothing": "Short",
+    "createdAt": "2024-04-16T09:20:19.387Z"
+  },
+  {
+    "id": 174,
+    "characterName": "Rivan",
+    "childAge": 2,
+    "skinColor": "#111111",
+    "hairStyle": "Mont",
+    "headShape": "Round",
+    "upperClothing": "T-Shirt",
+    "lowerClothing": "Trosuers",
+    "createdAt": "2024-04-16T09:20:19.387Z"
+  },
+  {
+    "id": 2974,
+    "characterName": "Moack",
+    "childAge": 2,
+    "skinColor": "#111111",
+    "hairStyle": "Mont",
+    "headShape": "Round",
+    "upperClothing": "T-Shirt",
+    "lowerClothing": "Trosuers",
+    "createdAt": "2024-04-16T09:20:19.387Z"
+  }
+]
