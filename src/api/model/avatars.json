@@ -1,0 +1,68 @@
+[
+  {
+    "id": "c1b7f742-83fd-4878-bc8e-6606366c8ba3",
+    "avatarName": "chico",
+    "childAge": 4,
+    "skinColor": "#22ff00",
+    "hairStyle": "short",
+    "headShape": "oval",
+    "upperClothing": "shirt",
+    "lowerClothing": "pants",
+    "createdAt": "2024-04-20T13:57:49.259Z"
+  },
+  {
+    "id": "1a685f0e-c682-487b-8608-31240807c7b3",
+    "avatarName": "mina",
+    "childAge": 6,
+    "skinColor": "#22ff00",
+    "hairStyle": "short",
+    "headShape": "oval",
+    "upperClothing": "shirt",
+    "lowerClothing": "pants",
+    "createdAt": "2024-04-20T13:57:49.269Z"
+  },
+  {
+    "id": "8881e5ad-0579-48b0-b9c5-07c0dd4c1b95",
+    "avatarName": "chico",
+    "childAge": 4,
+    "skinColor": "#22ff00",
+    "hairStyle": "short",
+    "headShape": "oval",
+    "upperClothing": "shirt",
+    "lowerClothing": "pants",
+    "createdAt": "2024-04-20T13:57:51.612Z"
+  },
+  {
+    "id": "c7efe1a4-b054-460b-9afa-2ddac959dc13",
+    "avatarName": "mina",
+    "childAge": 6,
+    "skinColor": "#22ff00",
+    "hairStyle": "short",
+    "headShape": "oval",
+    "upperClothing": "shirt",
+    "lowerClothing": "pants",
+    "createdAt": "2024-04-20T13:57:51.624Z"
+  },
+  {
+    "id": "1c607cfc-6139-4981-a04c-dcdaae211dc0",
+    "avatarName": "chico",
+    "childAge": 4,
+    "skinColor": "#22ff00",
+    "hairStyle": "short",
+    "headShape": "oval",
+    "upperClothing": "shirt",
+    "lowerClothing": "pants",
+    "createdAt": "2024-04-20T14:03:04.714Z"
+  },
+  {
+    "id": "4c6b45dd-2cc2-4d7a-ae0f-97287faec214",
+    "avatarName": "mina",
+    "childAge": 6,
+    "skinColor": "#22ff00",
+    "hairStyle": "short",
+    "headShape": "oval",
+    "upperClothing": "shirt",
+    "lowerClothing": "pants",
+    "createdAt": "2024-04-20T14:03:04.726Z"
+  }
+]

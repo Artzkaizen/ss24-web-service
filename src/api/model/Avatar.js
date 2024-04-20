@@ -1,7 +1,8 @@
+const { v4: uuidv4 } = require('uuid');
 class Avatar {
-    constructor( characterName, childAge, skinColor, hairStyle, headShape, upperClothing, lowerClothing) {
-        this.id = Math.floor(Math.random() * 10000 + 1);
-        this.characterName = characterName;
+    constructor( avatarName, childAge, skinColor, hairStyle, headShape, upperClothing, lowerClothing) {
+        this.id = uuidv4();
+        this.avatarName = avatarName;
         this.childAge = +childAge;
         this.skinColor = skinColor;
         this.hairStyle = hairStyle;
@@ -11,5 +12,4 @@ class Avatar {
         this.createdAt = new Date().toISOString(); 
     }
 }
-
 module.exports = Avatar;
