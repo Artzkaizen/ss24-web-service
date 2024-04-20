@@ -4,5 +4,9 @@
 
 # nodejs files
 node_modules
+<<<<<<< HEAD
 src/public/avatars.html
 kat.html
+=======
+avatars.json
+>>>>>>> 6d80484afa65a18a462163d63439cc160e21c3a7
