@@ -3,11 +3,10 @@ const express = require('express');
 const path = require('path');
 const bodyParser = require('body-parser');
 
+const logger = require('./middleware/logReqs');
 
 const app = express();
 const port = process.env.PORT || 3000;
-
-const logger = require('./middleware/logReqs');
 
 app.use(bodyParser.json());
 
@@ -21,10 +20,8 @@ app.use('/api/avatars/:id', require('./routes/updateAvatar'));
 app.use('/api/avatars', require('./routes/getAvatars'));
 app.use('/api/avatars/:id', require('./routes/getAvatars'));
 
-
 app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, '..', 'public', 'index.html'));
 });
-
 
 module.exports = { app, port };
