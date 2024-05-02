@@ -9,7 +9,7 @@ class Avatar {
         this.headShape = headShape;
         this.upperClothing = upperClothing;
         this.lowerClothing = lowerClothing;
-        this.createdAt = new Date().toISOString(); 
+        this.createdAt = new Date().toISOString();
     }
 }
 module.exports = Avatar;

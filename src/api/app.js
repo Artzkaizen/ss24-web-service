@@ -1,24 +1,28 @@
 require('dotenv/config');
 const express = require('express');
 const path = require('path');
-const bodyParser = require('body-parser');
+const passport = require('passport');
 
-const logger = require('./middleware/logReqs');
+const bodyParser = require('body-parser');
+const { logger, jwtStrategy, passportStrategy} = require('./middleware/export')
+
 
 const app = express();
 const port = process.env.PORT || 3000;
 
 app.use(bodyParser.json());
 
-app.use(express.static(path.join(__dirname, '..', 'public')));
+app.use(express.static(path.join(__dirname, '..', '..', 'public')));
 app.use(express.json());
 
-app.use(logger)
-app.use('/api/avatars', require('./routes/createAvatar'));
-app.use('/api/avatars/:id', require('./routes/deleteAvatar'));
-app.use('/api/avatars/:id', require('./routes/updateAvatar'));
-app.use('/api/avatars', require('./routes/getAvatars'));
-app.use('/api/avatars/:id', require('./routes/getAvatars'));
+
+passport.use(passportStrategy);
+passport.use(jwtStrategy);
+
+app.use(logger);
+
+app.use('/auth', require('./routes/userRoutes'));
+app.use('/api/avatars', require('./routes/avatarRoutes'));
 
 app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, '..', 'public', 'index.html'));
