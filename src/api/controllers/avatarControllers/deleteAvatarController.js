@@ -1,4 +1,4 @@
-const { fs, avatarFilePath, avatarFolderPath, ensureFolderAndFilesExist } = require('./_index');
+const { fs, avatarFilePath, avatarFolderPath, ensureFolderAndFilesExist } = require('../_index');
 
 const deleteAvatar = async (req, res) => {
     try {
@@ -11,7 +11,6 @@ const deleteAvatar = async (req, res) => {
             :  avatars.splice(foundAvatarIndex, 1),
                 await fs.promises.writeFile(avatarFilePath, JSON.stringify(avatars, null, 2)),
                 res.sendStatus(204);
-       
     } catch (err) {
         console.error('Error reading avatars:', err);
         res.status(500).send('Internal server error');

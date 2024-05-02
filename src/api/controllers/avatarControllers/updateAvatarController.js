@@ -1,9 +1,8 @@
-const { fs, avatarFilePath, avatarFolderPath, ensureFolderAndFilesExist } = require('./_index');
+const { fs, avatarFilePath, avatarFolderPath, ensureFolderAndFilesExist } = require('../_index');
 
 const updateAvatar = async (req, res)=>{
     try {
         ensureFolderAndFilesExist(avatarFolderPath, avatarFilePath);
-        if(!fs.existsSync(avatarFilePath)) throw new Error('File does not exist');
         const updatedAvatar = req.body
         const avatars = JSON.parse(await fs.promises.readFile(avatarFilePath));
 

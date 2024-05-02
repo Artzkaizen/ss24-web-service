@@ -79,7 +79,6 @@ describe('avatar api', () => {
     test('create avatar requires at least avatar name and child\'s age', async () => {
 
         const testData = {
-            "id": "c8b0231a-1b05-4e6e-8093-c1692e5f45a8",
             "avatarName": "mina",
             "childAge": 6,
             "skinColor": "#22ff00",
@@ -87,7 +86,6 @@ describe('avatar api', () => {
             "headShape": "oval",
             "upperClothing": "shirt",
             "lowerClothing": "pants",
-            "createdAt": "2024-04-19T16:43:35.221Z"
         }
 
         const createResponse = await request(app)
@@ -97,7 +95,15 @@ describe('avatar api', () => {
             .expect(201);
     });
 });
-// describe('validate data', () => {
+describe('user',  () => {
+    test('auth user', async () => {
+        const user = await request(app)
+            .get('/auth/login')
+            .auth('marie@home.edu', '123')
+            .set('Accept', 'application/json')
+            .expect(200);
+    });
 
-    
-// });
+});
+
+

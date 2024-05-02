@@ -1,7 +1,4 @@
-const { format } = require('date-fns');
-const { v4: uuid } = require('uuid');
-const fs = require('fs');
-const path = require('path');
+const { path, fs, uuid, format} = require('./_index');
 
 const ensureFolderAndFilesExist = require('../helper/ensureFolderAndFilesExist');
 
