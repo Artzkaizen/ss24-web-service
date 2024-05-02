@@ -3346,5 +3346,581 @@
     "url": "/auth/login",
     "timestamp": "2024-05-02 10:46:53",
     "uuid": "90334733-c245-4573-a787-836dad16f6e9"
+  },
+  {
+    "method": "POST",
+    "url": "/api/avatars",
+    "timestamp": "2024-05-02 11:11:22",
+    "uuid": "be25466c-1b05-4c30-9a9e-f7ee3276ebaf"
+  },
+  {
+    "method": "GET",
+    "url": "/api/avatars/",
+    "timestamp": "2024-05-02 11:11:22",
+    "uuid": "d28b3df6-7d25-4771-9293-118b9132b0a4"
+  },
+  {
+    "method": "PUT",
+    "url": "/api/avatars/447317f1-abcc-4f8b-b0f2-4e3f68e73377",
+    "timestamp": "2024-05-02 11:11:22",
+    "uuid": "6be3e08a-ef0f-45ca-816e-81bb4d00ec77"
+  },
+  {
+    "method": "DELETE",
+    "url": "/api/avatars/447317f1-abcc-4f8b-b0f2-4e3f68e73377",
+    "timestamp": "2024-05-02 11:11:22",
+    "uuid": "df750291-f683-40c1-ba68-7c34697d09ef"
+  },
+  {
+    "method": "GET",
+    "url": "/api/avatars",
+    "timestamp": "2024-05-02 11:11:22",
+    "uuid": "291fce25-7c4d-49e8-be92-d95429bfa042"
+  },
+  {
+    "method": "POST",
+    "url": "/api/avatars",
+    "timestamp": "2024-05-02 11:11:22",
+    "uuid": "f06d17b8-f98a-4951-85dc-8cabf786c186"
+  },
+  {
+    "method": "GET",
+    "url": "/api/avatars",
+    "timestamp": "2024-05-02 11:11:22",
+    "uuid": "ac0721c7-6894-480f-82a4-e2198da483e5"
+  },
+  {
+    "method": "POST",
+    "url": "/api/avatars",
+    "timestamp": "2024-05-02 11:11:22",
+    "uuid": "3d0e8e8b-a23d-40d5-9501-e39ffc2a1c72"
+  },
+  {
+    "method": "GET",
+    "url": "/auth/login",
+    "timestamp": "2024-05-02 11:11:22",
+    "uuid": "354a0171-dc02-4dea-b8e9-bd97dd8b16fe"
+  },
+  {
+    "method": "POST",
+    "url": "/api/avatars",
+    "timestamp": "2024-05-02 11:11:36",
+    "uuid": "7caa12b6-ffdd-4511-96f8-b2032ecef596"
+  },
+  {
+    "method": "GET",
+    "url": "/api/avatars/",
+    "timestamp": "2024-05-02 11:11:36",
+    "uuid": "79947a07-49a5-4f67-94c7-32f38352e31a"
+  },
+  {
+    "method": "PUT",
+    "url": "/api/avatars/599bf429-8072-4bc3-8c0e-6e44fb6cd322",
+    "timestamp": "2024-05-02 11:11:36",
+    "uuid": "178b44d3-a5c4-4a40-942b-f5d8e79a6ae0"
+  },
+  {
+    "method": "DELETE",
+    "url": "/api/avatars/599bf429-8072-4bc3-8c0e-6e44fb6cd322",
+    "timestamp": "2024-05-02 11:11:36",
+    "uuid": "a46696ca-3ee6-432a-a209-132830c2ea23"
+  },
+  {
+    "method": "GET",
+    "url": "/api/avatars",
+    "timestamp": "2024-05-02 11:11:36",
+    "uuid": "d2a05805-5503-4249-8b8b-8f316135c749"
+  },
+  {
+    "method": "POST",
+    "url": "/api/avatars",
+    "timestamp": "2024-05-02 11:11:36",
+    "uuid": "49e88239-b1ec-4fbc-a1f2-932115a2d98d"
+  },
+  {
+    "method": "GET",
+    "url": "/api/avatars",
+    "timestamp": "2024-05-02 11:11:36",
+    "uuid": "cb996dc6-5306-4b4e-a17f-d10725947fbf"
+  },
+  {
+    "method": "POST",
+    "url": "/api/avatars",
+    "timestamp": "2024-05-02 11:11:36",
+    "uuid": "8423054a-4d22-485d-a746-c0dbb34b7928"
+  },
+  {
+    "method": "GET",
+    "url": "/auth/login",
+    "timestamp": "2024-05-02 11:11:36",
+    "uuid": "aef6b6a9-6630-447a-bf25-8761d3bf6b91"
+  },
+  {
+    "method": "POST",
+    "url": "/api/avatars",
+    "timestamp": "2024-05-02 11:11:40",
+    "uuid": "de836d08-d634-4f32-ac2f-8ed824ed4e8d"
+  },
+  {
+    "method": "GET",
+    "url": "/api/avatars/",
+    "timestamp": "2024-05-02 11:11:40",
+    "uuid": "92624844-8d8c-4df7-9dca-259d2fa76aeb"
+  },
+  {
+    "method": "PUT",
+    "url": "/api/avatars/2294f934-4b16-4cb1-8023-983cbeea9bc2",
+    "timestamp": "2024-05-02 11:11:40",
+    "uuid": "e52cc910-f6ba-46ac-8cda-02fd7cc37082"
+  },
+  {
+    "method": "DELETE",
+    "url": "/api/avatars/2294f934-4b16-4cb1-8023-983cbeea9bc2",
+    "timestamp": "2024-05-02 11:11:40",
+    "uuid": "0e88d7d3-e680-45e1-a800-0439e74951a9"
+  },
+  {
+    "method": "GET",
+    "url": "/api/avatars",
+    "timestamp": "2024-05-02 11:11:40",
+    "uuid": "80c023b9-c537-4e3f-8ac0-3db40675c8be"
+  },
+  {
+    "method": "POST",
+    "url": "/api/avatars",
+    "timestamp": "2024-05-02 11:11:40",
+    "uuid": "3c987db4-7bd4-4204-a661-c60f653643be"
+  },
+  {
+    "method": "GET",
+    "url": "/api/avatars",
+    "timestamp": "2024-05-02 11:11:40",
+    "uuid": "db9001cc-9dff-42e7-aedc-c0bdc6b9b152"
+  },
+  {
+    "method": "POST",
+    "url": "/api/avatars",
+    "timestamp": "2024-05-02 11:11:40",
+    "uuid": "936bfaa3-d3cb-40db-af31-ffc7f623ef08"
+  },
+  {
+    "method": "GET",
+    "url": "/auth/login",
+    "timestamp": "2024-05-02 11:11:40",
+    "uuid": "1b9f1aab-abed-42dc-9b60-430de73179d5"
+  },
+  {
+    "method": "POST",
+    "url": "/api/avatars",
+    "timestamp": "2024-05-02 12:29:08",
+    "uuid": "f8d7bcb2-efb6-4c86-a6e3-cacc9c687973"
+  },
+  {
+    "method": "GET",
+    "url": "/api/avatars/",
+    "timestamp": "2024-05-02 12:29:08",
+    "uuid": "ffb2ab4d-6f29-49e5-bc3c-6d4e9998e57d"
+  },
+  {
+    "method": "PUT",
+    "url": "/api/avatars/26e44f6a-77f8-4995-80ec-c01a19a9db66",
+    "timestamp": "2024-05-02 12:29:08",
+    "uuid": "15fd9f26-80cf-4c49-99e1-1dcb29c098df"
+  },
+  {
+    "method": "DELETE",
+    "url": "/api/avatars/26e44f6a-77f8-4995-80ec-c01a19a9db66",
+    "timestamp": "2024-05-02 12:29:08",
+    "uuid": "003d4cb4-52f7-4af6-9467-d196eca071a7"
+  },
+  {
+    "method": "GET",
+    "url": "/api/avatars",
+    "timestamp": "2024-05-02 12:29:08",
+    "uuid": "d3a2a601-b85a-41c8-981d-e21235526617"
+  },
+  {
+    "method": "POST",
+    "url": "/api/avatars",
+    "timestamp": "2024-05-02 12:29:08",
+    "uuid": "f30e692d-d701-49f8-b8c4-948e9d12b5f6"
+  },
+  {
+    "method": "GET",
+    "url": "/api/avatars",
+    "timestamp": "2024-05-02 12:29:08",
+    "uuid": "d9ee7d36-2738-4cc8-81c3-f2450223124d"
+  },
+  {
+    "method": "POST",
+    "url": "/api/avatars",
+    "timestamp": "2024-05-02 12:29:08",
+    "uuid": "b735e051-f830-48ac-b424-29cb8117fe72"
+  },
+  {
+    "method": "GET",
+    "url": "/auth/login",
+    "timestamp": "2024-05-02 12:29:08",
+    "uuid": "c01c73aa-0896-4307-b83a-97e57146e116"
+  },
+  {
+    "method": "POST",
+    "url": "/api/avatars",
+    "timestamp": "2024-05-02 12:29:14",
+    "uuid": "761d2b85-1cef-446a-b030-32d95b306a13"
+  },
+  {
+    "method": "GET",
+    "url": "/api/avatars/",
+    "timestamp": "2024-05-02 12:29:14",
+    "uuid": "74a51545-1930-416d-bfb9-1ebd785993f9"
+  },
+  {
+    "method": "PUT",
+    "url": "/api/avatars/a8ffec17-9a2d-4de5-adcf-81600acc8284",
+    "timestamp": "2024-05-02 12:29:14",
+    "uuid": "8e167e65-82d4-4b94-8262-eccb4649a2e2"
+  },
+  {
+    "method": "DELETE",
+    "url": "/api/avatars/a8ffec17-9a2d-4de5-adcf-81600acc8284",
+    "timestamp": "2024-05-02 12:29:14",
+    "uuid": "3b2307df-b332-40bf-8ab3-9e727bf43b9d"
+  },
+  {
+    "method": "GET",
+    "url": "/api/avatars",
+    "timestamp": "2024-05-02 12:29:14",
+    "uuid": "88dae517-4233-4cbe-b5ec-b57c349a2b25"
+  },
+  {
+    "method": "POST",
+    "url": "/api/avatars",
+    "timestamp": "2024-05-02 12:29:14",
+    "uuid": "ff19857d-df24-457c-8244-f388ff2966e3"
+  },
+  {
+    "method": "GET",
+    "url": "/api/avatars",
+    "timestamp": "2024-05-02 12:29:14",
+    "uuid": "756f1279-72d8-41cb-885c-5c7f1f568f7d"
+  },
+  {
+    "method": "POST",
+    "url": "/api/avatars",
+    "timestamp": "2024-05-02 12:29:14",
+    "uuid": "8ef799bb-3b10-430d-a6f8-3c0be18e09d5"
+  },
+  {
+    "method": "GET",
+    "url": "/auth/login",
+    "timestamp": "2024-05-02 12:29:14",
+    "uuid": "8338f3fc-5bd7-4d0f-9250-b1009bf69e0a"
+  },
+  {
+    "method": "POST",
+    "url": "/api/avatars",
+    "timestamp": "2024-05-02 12:33:26",
+    "uuid": "2a5b8c03-1d59-46f8-b602-bd0b4967a675"
+  },
+  {
+    "method": "GET",
+    "url": "/api/avatars/",
+    "timestamp": "2024-05-02 12:33:26",
+    "uuid": "e9c2373d-1b5b-40e5-b794-38ab6a1d0686"
+  },
+  {
+    "method": "PUT",
+    "url": "/api/avatars/38ea898c-e902-4e01-8fd7-5b2befb4fa40",
+    "timestamp": "2024-05-02 12:33:26",
+    "uuid": "185f70eb-0b87-4562-817d-0d282669b674"
+  },
+  {
+    "method": "DELETE",
+    "url": "/api/avatars/38ea898c-e902-4e01-8fd7-5b2befb4fa40",
+    "timestamp": "2024-05-02 12:33:26",
+    "uuid": "86937d09-3c2e-429a-8eba-86bb8ff85fcd"
+  },
+  {
+    "method": "GET",
+    "url": "/api/avatars",
+    "timestamp": "2024-05-02 12:33:26",
+    "uuid": "5db8b805-708c-45d7-aebb-cb74aabfffbd"
+  },
+  {
+    "method": "POST",
+    "url": "/api/avatars",
+    "timestamp": "2024-05-02 12:33:26",
+    "uuid": "3e1ef161-27a5-48b2-a6ac-bebe70a65c38"
+  },
+  {
+    "method": "GET",
+    "url": "/api/avatars",
+    "timestamp": "2024-05-02 12:33:26",
+    "uuid": "6525de37-d4e4-4fd8-af1c-1c018aa34dd7"
+  },
+  {
+    "method": "POST",
+    "url": "/api/avatars",
+    "timestamp": "2024-05-02 12:33:26",
+    "uuid": "16ac7560-6ba4-4a20-ba23-43137929e3f2"
+  },
+  {
+    "method": "POST",
+    "url": "/auth/register",
+    "timestamp": "2024-05-02 12:33:26",
+    "uuid": "859dcde1-6646-4ff9-9c35-b41139e43d08"
+  },
+  {
+    "method": "GET",
+    "url": "/auth/login",
+    "timestamp": "2024-05-02 12:33:26",
+    "uuid": "c36c0c8a-62b5-480a-a3e8-89f542720ed0"
+  },
+  {
+    "method": "POST",
+    "url": "/api/avatars",
+    "timestamp": "2024-05-02 12:33:37",
+    "uuid": "0ca31f36-ebad-4111-9e88-5bfc20685fc9"
+  },
+  {
+    "method": "GET",
+    "url": "/api/avatars/",
+    "timestamp": "2024-05-02 12:33:37",
+    "uuid": "801edd75-fdce-401d-b46d-5d44245f6a04"
+  },
+  {
+    "method": "PUT",
+    "url": "/api/avatars/4cbfa5c6-3caa-4ff7-805f-f8a64ef73c03",
+    "timestamp": "2024-05-02 12:33:37",
+    "uuid": "5970b730-1d8b-4933-83f3-481d2d28723c"
+  },
+  {
+    "method": "DELETE",
+    "url": "/api/avatars/4cbfa5c6-3caa-4ff7-805f-f8a64ef73c03",
+    "timestamp": "2024-05-02 12:33:37",
+    "uuid": "52457cc1-3687-457c-91bf-e77e296eece0"
+  },
+  {
+    "method": "GET",
+    "url": "/api/avatars",
+    "timestamp": "2024-05-02 12:33:37",
+    "uuid": "b34cb7e4-f65f-4d41-a9b1-edc588abe43c"
+  },
+  {
+    "method": "POST",
+    "url": "/api/avatars",
+    "timestamp": "2024-05-02 12:33:37",
+    "uuid": "132ebb45-ae71-4f5d-abff-1c462c423a21"
+  },
+  {
+    "method": "GET",
+    "url": "/api/avatars",
+    "timestamp": "2024-05-02 12:33:37",
+    "uuid": "5655388e-13f2-4044-9256-4ddafd470e88"
+  },
+  {
+    "method": "POST",
+    "url": "/api/avatars",
+    "timestamp": "2024-05-02 12:33:37",
+    "uuid": "2771d41f-73ef-4721-a702-d1256d5812c2"
+  },
+  {
+    "method": "POST",
+    "url": "/auth/register",
+    "timestamp": "2024-05-02 12:33:37",
+    "uuid": "77ee38b5-9cb4-4ec9-92a7-f04fb4daec72"
+  },
+  {
+    "method": "GET",
+    "url": "/auth/login",
+    "timestamp": "2024-05-02 12:33:37",
+    "uuid": "881f22ac-d975-42d6-b2a6-01d9197203fb"
+  },
+  {
+    "method": "POST",
+    "url": "/api/avatars",
+    "timestamp": "2024-05-02 12:33:57",
+    "uuid": "ef3279b4-bed6-4fee-9350-1cbd17558315"
+  },
+  {
+    "method": "GET",
+    "url": "/api/avatars/",
+    "timestamp": "2024-05-02 12:33:57",
+    "uuid": "64fec859-0d82-4f3a-8540-8cd06c3d4da8"
+  },
+  {
+    "method": "PUT",
+    "url": "/api/avatars/ad4e5ab7-eac4-4b7b-9e41-5bcdf5d12359",
+    "timestamp": "2024-05-02 12:33:57",
+    "uuid": "0e29dcc3-d60c-4df2-8bcd-374ce4e160a6"
+  },
+  {
+    "method": "DELETE",
+    "url": "/api/avatars/ad4e5ab7-eac4-4b7b-9e41-5bcdf5d12359",
+    "timestamp": "2024-05-02 12:33:57",
+    "uuid": "e3a9996f-0ea1-43ff-b5f4-9174ff030508"
+  },
+  {
+    "method": "GET",
+    "url": "/api/avatars",
+    "timestamp": "2024-05-02 12:33:57",
+    "uuid": "5352af17-d92b-4932-ad4f-9d0e162d339e"
+  },
+  {
+    "method": "POST",
+    "url": "/api/avatars",
+    "timestamp": "2024-05-02 12:33:57",
+    "uuid": "918aee01-6d47-4c65-b295-75a29951a8d4"
+  },
+  {
+    "method": "GET",
+    "url": "/api/avatars",
+    "timestamp": "2024-05-02 12:33:57",
+    "uuid": "f4df31e2-96b9-435d-9dfa-48ddc48b2a4c"
+  },
+  {
+    "method": "POST",
+    "url": "/api/avatars",
+    "timestamp": "2024-05-02 12:33:57",
+    "uuid": "f236e5cf-56c4-4d1d-9794-ae9676b72971"
+  },
+  {
+    "method": "POST",
+    "url": "/auth/register",
+    "timestamp": "2024-05-02 12:33:57",
+    "uuid": "3c84cf76-16ba-45bf-b470-a634e654ac08"
+  },
+  {
+    "method": "GET",
+    "url": "/auth/login",
+    "timestamp": "2024-05-02 12:33:57",
+    "uuid": "e6001ea6-539a-4918-a7fb-997261a5a32b"
+  },
+  {
+    "method": "POST",
+    "url": "/api/avatars",
+    "timestamp": "2024-05-02 12:34:17",
+    "uuid": "cb59ca87-6ea7-4ee7-b3d6-4fe4de907c08"
+  },
+  {
+    "method": "GET",
+    "url": "/api/avatars/",
+    "timestamp": "2024-05-02 12:34:17",
+    "uuid": "b6fa9157-6b2a-4736-9fc4-5aba455ef5e6"
+  },
+  {
+    "method": "PUT",
+    "url": "/api/avatars/79304505-b3d0-4089-bee6-f97cd6eebd27",
+    "timestamp": "2024-05-02 12:34:17",
+    "uuid": "beab7378-d78f-4c65-8031-534318741871"
+  },
+  {
+    "method": "DELETE",
+    "url": "/api/avatars/79304505-b3d0-4089-bee6-f97cd6eebd27",
+    "timestamp": "2024-05-02 12:34:17",
+    "uuid": "f3cbf819-2f1e-4432-a1ed-485e59e63040"
+  },
+  {
+    "method": "GET",
+    "url": "/api/avatars",
+    "timestamp": "2024-05-02 12:34:17",
+    "uuid": "ee9a17fc-1b91-4338-a134-07c83ffe78c8"
+  },
+  {
+    "method": "POST",
+    "url": "/api/avatars",
+    "timestamp": "2024-05-02 12:34:17",
+    "uuid": "8741925d-5786-4873-a647-9d62025f9edd"
+  },
+  {
+    "method": "GET",
+    "url": "/api/avatars",
+    "timestamp": "2024-05-02 12:34:17",
+    "uuid": "a2fcda9d-73e1-42a8-ad19-f88c6774f09e"
+  },
+  {
+    "method": "POST",
+    "url": "/api/avatars",
+    "timestamp": "2024-05-02 12:34:17",
+    "uuid": "f2634bf1-deac-4441-a5da-86725d28c768"
+  },
+  {
+    "method": "POST",
+    "url": "/auth/register",
+    "timestamp": "2024-05-02 12:34:17",
+    "uuid": "23ebb399-b54a-416d-a84f-bd2072dd5e7a"
+  },
+  {
+    "method": "GET",
+    "url": "/auth/login",
+    "timestamp": "2024-05-02 12:34:17",
+    "uuid": "3eee58b7-1a27-4f03-b466-bf3d837fcbc0"
+  },
+  {
+    "method": "POST",
+    "url": "/auth/register",
+    "timestamp": "2024-05-02 12:34:48",
+    "uuid": "f4395660-d29a-4264-9c6e-9220a81bbde8"
+  },
+  {
+    "method": "POST",
+    "url": "/api/avatars",
+    "timestamp": "2024-05-02 12:35:48",
+    "uuid": "4d4a7523-e8d6-41b6-8866-155796347a69"
+  },
+  {
+    "method": "GET",
+    "url": "/api/avatars/",
+    "timestamp": "2024-05-02 12:35:48",
+    "uuid": "e7edad7a-1e0e-48fc-af81-6fd79ec87b44"
+  },
+  {
+    "method": "PUT",
+    "url": "/api/avatars/66b9cc9b-9bdb-41c7-a7e1-ffd74e745b17",
+    "timestamp": "2024-05-02 12:35:48",
+    "uuid": "d473f0ec-0301-4897-8027-537603f8a186"
+  },
+  {
+    "method": "DELETE",
+    "url": "/api/avatars/66b9cc9b-9bdb-41c7-a7e1-ffd74e745b17",
+    "timestamp": "2024-05-02 12:35:48",
+    "uuid": "d77d3e13-6a1f-4d07-be6e-969bc26d67cc"
+  },
+  {
+    "method": "GET",
+    "url": "/api/avatars",
+    "timestamp": "2024-05-02 12:35:48",
+    "uuid": "cdb94827-1325-4b6e-887e-5f2ee4b9ec25"
+  },
+  {
+    "method": "POST",
+    "url": "/api/avatars",
+    "timestamp": "2024-05-02 12:35:48",
+    "uuid": "8fb80921-46e7-46fd-af6a-56b44b540154"
+  },
+  {
+    "method": "GET",
+    "url": "/api/avatars",
+    "timestamp": "2024-05-02 12:35:48",
+    "uuid": "90e0081a-d254-404e-8212-9c426f04e75d"
+  },
+  {
+    "method": "POST",
+    "url": "/api/avatars",
+    "timestamp": "2024-05-02 12:35:48",
+    "uuid": "c5c1a458-af8b-4e22-8312-1b774f243bc8"
+  },
+  {
+    "method": "POST",
+    "url": "/auth/register",
+    "timestamp": "2024-05-02 12:35:48",
+    "uuid": "bf34d93c-c8b7-4eb8-8e77-5242ac00aede"
+  },
+  {
+    "method": "GET",
+    "url": "/auth/login",
+    "timestamp": "2024-05-02 12:35:48",
+    "uuid": "f258719e-3bcd-4b32-a04b-397d71ba366d"
   }
 ]

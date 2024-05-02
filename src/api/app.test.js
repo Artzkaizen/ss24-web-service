@@ -96,10 +96,25 @@ describe('avatar api', () => {
     });
 });
 describe('user',  () => {
+    const USER_DATA = {
+        "username": "mona@home.edu",
+        "password": "123",
+        "name": "Mickey"
+    }
+    test('create user', async () => {
+        const newuser = await request(app)
+            .post('/auth/register')
+            .set('Accept', 'application/json')
+            .send(USER_DATA)
+            .expect(201);
+            // expect(newuser.body).toMatchObject( {message:'Your user has been created!', user: USER_DATA});
+            expect(typeof newuser.body.user.id).toBe('string');
+            expect(newuser.body.user.createdAt).toBeDefined();
+    });
     test('auth user', async () => {
         const user = await request(app)
             .get('/auth/login')
-            .auth('marie@home.edu', '123')
+            .auth('mona@home.edu', '123')
             .set('Accept', 'application/json')
             .expect(200);
     });

@@ -1,7 +1,6 @@
 const jwt = require('jsonwebtoken');
 
 const handleLogin = async (req, res, next) => {
-    console.log('subject', req.user)
     try {
         const accessToken = jwt.sign({
                 roles: req.user.roles,
