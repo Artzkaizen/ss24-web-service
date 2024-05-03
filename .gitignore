@@ -1,6 +1,7 @@
 # ide files
 .idea
 *.iml
+.vscode
 
 # nodejs files
 node_modules
