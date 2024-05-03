@@ -5,6 +5,6 @@ const passport = require('passport');
 router.post('/register', createUser);
 
 // login user in
-router.get('/login', passport.authenticate('basic', {session: false}), handleLogin);
+router.get('/login',passport.authenticate('basic', { session: false }), handleLogin);
 
 module.exports = router;

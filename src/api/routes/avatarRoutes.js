@@ -1,4 +1,6 @@
 const {
+    isParent,
+    isChild,
     router,
     validator,
     avatarSchema,
@@ -7,17 +9,24 @@ const {
     deleteAvatar,
     getOneAvatar,
     getAllAvatars,
- } = require('./_index')
+ } = require('./_index');
 
- // Creates a new avatar
-router.post('/', validator.body(avatarSchema), createAvatar);
-// Update an existing avatar
-router.put('/:id', validator.body(avatarSchema), updateAvatar);
-// Delete an avatar
-router.delete('/:id', deleteAvatar);
-// Get all avatars
-router.get('/', getAllAvatars);
-// Get a single avatar
-router.get('/:id', getOneAvatar);
+const passport = require('passport');
+router.all('/', (req, res, next) => {
+    next();
+})
+router.use(passport.authenticate('jwt', {session: false}))
+
+router.route('/', )
+    .post(isParent,validator.body(avatarSchema), createAvatar) // create avatar
+    .get( isChild, getAllAvatars) // get all
+
+router.route('/:id')
+    .put(isParent, validator.body(avatarSchema), updateAvatar) // update avatar
+    .delete(isParent, deleteAvatar) // delete avatar
+    .get(isChild , getOneAvatar); // get one avatar]
+
+
 
 module.exports = router;
+

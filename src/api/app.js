@@ -18,8 +18,8 @@ app.use(express.json());
 
 passport.use(passportStrategy);
 passport.use(jwtStrategy);
-
 app.use(logger);
+
 
 app.use('/auth', require('./routes/userRoutes'));
 app.use('/api/avatars', require('./routes/avatarRoutes'));
@@ -27,5 +27,4 @@ app.use('/api/avatars', require('./routes/avatarRoutes'));
 app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, '..', 'public', 'index.html'));
 });
-
 module.exports = { app, port };

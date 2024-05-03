@@ -16,6 +16,8 @@ const createUser = require('../controllers/userControllers/createUserController'
 const handleLogin = require('../controllers/userControllers/authUserController');
 const validator = require('express-joi-validation').createValidator({});
 
+const { isChild, isParent} = require('../config/roles');
+
 module.exports = {
     router,
     validator,
@@ -30,5 +32,7 @@ module.exports = {
     getAllAvatars,
     createUser,
     handleLogin,
+    isChild,
+    isParent,
     ensureFolderAndFilesExist
  };

@@ -18,17 +18,22 @@ form {
     gap: 0.5rem;
 }
 table {
-    font-family: arial, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
-  }
-  
-  td, th {
-    border: 1px solid #dddddd;
-    text-align: left;
-    padding: 8px;
-  }
-  
-  tr:nth-child(even) {
-    background-color: #dddddd;
-  }
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  text-align: center;
+
+}
+
+.pagination-btn button {
+  margin-top: 1rem;
+  padding: 0.6rem;
+  width: 4rem;
+  outline: none;
+}

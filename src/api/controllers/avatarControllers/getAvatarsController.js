@@ -9,14 +9,14 @@ const getAllAvatars = async(req, res) => {
         //     ? res.status(200).json({message:'All your avatars!', avatars})
         //     : res.status(200).json({message:'You dont have any avatars'})
 
-        if (avatars && avatars.length) {
-            res.status(200).json({ message: 'All your avatars!', avatars });
-        } else if (avatars && !avatars.length) {
-            res.status(200).json({ message: 'You don\'t have any avatars' });
-        } else {
-            // Handle the case where avatars is undefined or not an array
-            res.status(200).json({ message: 'Avatars data is unavailable' });
-        }
+        const { page = 1, size = 5 } = req.query
+
+        // Paginate the avatars based on the requested page and size
+        const startIndex = (page - 1) * size;
+        const endIndex = startIndex + parseInt(size);
+        const paginatedAvatars = avatars.slice(startIndex, endIndex);
+
+        res.status(200).json(paginatedAvatars);
 
     } catch (err) {
         console.error('Error reading avatars:', err);

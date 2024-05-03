@@ -12,6 +12,12 @@
                 "<node_internals>/**"
             ],
             "program": "${workspaceFolder}/src/api/app.test.js"
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Launch Chrome against local host",
+            "url": "http://localhost:4500"
         }
     ]
 }

@@ -1,4 +1,4 @@
-const { fs, BasicStrategy, bcrypt, userFilePath }= require('./_index')
+const { fs, BasicStrategy, bcrypt, userFilePath } = require('./_index')
 
 const passportStrategy = new BasicStrategy(
     async function (userid, password, done) {

@@ -8,7 +8,7 @@ const updateAvatar = async (req, res)=>{
 
         const foundAvatarIndex = avatars.findIndex(avatar => avatar.id === req.params.id);
 
-        foundAvatarIndex === -1 
+        foundAvatarIndex === -1
             ? res.status(404).json({ message: `Avatar not found` })
             : avatars[foundAvatarIndex] = { ...avatars[foundAvatarIndex], ...updatedAvatar },
                 await fs.promises.writeFile(avatarFilePath, JSON.stringify(avatars, null, 2)),
